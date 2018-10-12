@@ -16,7 +16,8 @@ public class Principal {
      */
     public static void main(String[] args) {
         Precio p = new Precio();
+        p.euros = 10.1;
         System.out.println(p.euros);
     }
-    
+
 }
